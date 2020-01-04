@@ -1,0 +1,29 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "max-line-length": {
+            "options": {
+                "limit": 160
+            },
+            "severity": "error"
+        },
+        "variable-name": [
+            true,
+            "allow-snake-case"
+        ],
+        "no-console": false,
+        "no-parameter-reassignment": false,
+        "object-shorthand-properties-first": false,
+        "indent": [
+            true,
+            "spaces",
+            4
+        ],
+        "no-any": true
+    },
+    "rulesDirectory": []
+}

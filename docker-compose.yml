@@ -1,0 +1,14 @@
+version: "3.3"
+
+services:
+  node_backend:
+    image: 652076111489.dkr.ecr.ap-southeast-1.amazonaws.com/order-service-prod:latest
+    ports:
+        - 9091:9091
+    deploy:
+        replicas: 3
+        restart_policy:
+            condition: any
+        placement:
+            constraints:
+            - node.role == worker
