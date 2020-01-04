@@ -1,5 +1,5 @@
 imageName = 'order-service-prod'
-managerIp = "10.10.0.91"
+managerIp = "10.10.4.69"
 registry = 'https://652076111489.dkr.ecr.ap-southeast-1.amazonaws.com'
 
 def commitID() {
