@@ -1,6 +1,10 @@
-imageName = 'order-service-prod'
-managerIp = "10.10.4.69"
 registry = 'https://652076111489.dkr.ecr.ap-southeast-1.amazonaws.com'
+
+imageName = 'order-service-prod'
+
+// TODO Replace with ELB or Auto Discovery
+
+managerIp = "10.10.4.69"
 
 def commitID() {
     sh 'git rev-parse HEAD > .git/commitID'

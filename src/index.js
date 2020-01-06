@@ -5,7 +5,7 @@ const server = http.createServer(((req, res) => {
             "Content-Type" : "text/plain"
     });
 
-    res.end("Order Service\n");
+    res.end("Order Service DEMO\n");
 }));
 
 server.listen(9091);
